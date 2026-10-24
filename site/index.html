@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Confeitaria em Fortaleza | Bolos, doces e salgados | Doce Lar</title>
+  <meta name="description" content="Bolos, doces e salgados para a sua festa em Fortaleza. Encomende pelo WhatsApp, retire na Parquelândia ou receba em casa.">
+  <meta name="theme-color" content="#FFF6EC">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Confeitaria Doce Lar">
+  <meta property="og:title" content="Doce Lar | Ajudando você a celebrar doces momentos">
+  <meta property="og:description" content="Bolos, doces e salgados para a sua festa em Fortaleza. Encomende pelo WhatsApp.">
+  <!-- Ao publicar, trocar "img/og-image.jpg" pela URL absoluta (https://SEU-DOMINIO/img/og-image.jpg) -->
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Bolo rosa com cobertura escorrendo e cerejas no topo">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+
+  <link rel="preload" href="fonts/nunito-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/fraunces-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="img/hero.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 5h16" /><path d="M4 12h16" /><path d="M4 19h16" /></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></symbol>
+  <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /></symbol>
+  <symbol id="i-chef-hat" viewBox="0 0 24 24"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" /><path d="M6 17h12" /></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /><path d="M15 18H9" /><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /><circle cx="17" cy="18" r="2" /><circle cx="7" cy="18" r="2" /></symbol>
+  <symbol id="i-cake" viewBox="0 0 24 24"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8" /><path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1" /><path d="M2 21h20" /><path d="M7 8v3" /><path d="M12 8v3" /><path d="M17 8v3" /><path d="M7 4h.01" /><path d="M12 4h.01" /><path d="M17 4h.01" /></symbol>
+  <symbol id="i-calendar-heart" viewBox="0 0 24 24"><path d="M12.127 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.125" /><path d="M14.62 17.8A2.25 2.25 0 1118 14.836a2.25 2.25 0 113.38 2.966l-2.626 2.856a.998.998 0 01-1.507 0z" /><path d="M16 2v3" /><path d="M3 9h18" /><path d="M8 2v3" /></symbol>
+  <symbol id="i-heart-handshake" viewBox="0 0 24 24"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" /></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><path d="M16 3.128a4 4 0 0 1 0 7.744" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><circle cx="9" cy="7" r="4" /></symbol>
+  <symbol id="i-party-popper" viewBox="0 0 24 24"><path d="M5.8 11.3 2 22l10.7-3.79" /><path d="M4 3h.01" /><path d="M22 8h.01" /><path d="M15 2h.01" /><path d="M22 20h.01" /><path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10" /><path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17" /><path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7" /><path d="M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z" /></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" /></symbol>
+  <symbol id="i-circle-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M12 8v4" /><path d="M12 16h.01" /></symbol>
+  <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" /><path d="m21.854 2.147-10.94 10.939" /></symbol>
+  <symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol>
+</svg>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="container topo__linha">
+    <a class="topo__logo" href="#topo" aria-label="Doce Lar, início">
+      <img src="img/logo.svg" alt="Doce Lar" width="161" height="40">
+    </a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <ul class="menu__lista">
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#como-encomendar">Como encomendar</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#onde-estamos">Onde estamos</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primario btn--topo" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">Encomendar</a>
+    <button class="topo__burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <svg class="ic ic--abrir" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="ic ic--fechar" aria-hidden="true"><use href="#i-x"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- 2. Hero -->
+  <section class="hero secao secao--creme" aria-labelledby="hero-titulo">
+    <div class="container hero__grade">
+      <div class="hero__texto">
+        <h1 id="hero-titulo">Ajudando você a celebrar <span class="destaque">doces momentos</span></h1>
+        <p class="lead">Bolos, doces e salgados feitos com carinho, com entrega em Fortaleza.</p>
+        <a class="btn btn--primario btn--grande" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">
+          <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg>Fazer minha encomenda
+        </a>
+        <p class="apoio">Terça a domingo, das 8h às 22h</p>
+      </div>
+      <div class="hero__imagem">
+        <img src="img/hero.webp" width="800" height="1000" fetchpriority="high"
+             alt="Bolo rosa decorado com morangos sobre um suporte branco, ao lado de cupcakes e uma xícara, em mesa com luz natural">
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Faixa de confiança -->
+  <section class="confianca" aria-label="Por que a Doce Lar">
+    <div class="container">
+      <ul class="confianca__lista">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-heart"/></svg><span><strong>2 anos</strong> adoçando celebrações</span></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-chef-hat"/></svg><span><strong>Feito sob encomenda</strong>, do seu jeito</span></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-truck"/></svg><span><strong>Entrega</strong> em toda Fortaleza</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. Produtos -->
+  <section class="secao secao--branco" id="produtos" aria-labelledby="produtos-titulo">
+    <div class="container">
+      <header class="secao__cab reveal">
+        <h2 id="produtos-titulo">Tudo para a sua festa</h2>
+        <p>Do bolo ao salgado, a mesa completa.</p>
+      </header>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__img"><img src="img/card_bolo.webp" width="800" height="600" loading="lazy"
+            alt="Fatia de bolo de chocolate com recheio em camadas e, ao fundo, bolo inteiro com morangos"></div>
+          <div class="card__corpo">
+            <h3>Bolos</h3>
+            <p>Aniversários, mesversários e todas as comemorações.</p>
+            <a class="btn btn--secundario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%20um%20bolo." data-wa="bolo">Pedir bolo</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/card_doces.webp" width="800" height="600" loading="lazy" alt="Brigadeiros de chocolate e de outros sabores em forminhas brancas, vistos de perto"></div>
+          <div class="card__corpo">
+            <h3>Doces para festas</h3>
+            <p>Brigadeiros e delícias para encantar os convidados.</p>
+            <a class="btn btn--secundario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%20doces%20para%20uma%20festa." data-wa="doces">Pedir doces</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/card_salgados.webp" width="800" height="600" loading="lazy"
+            alt="Travessa com coxinhas douradas, uma delas partida ao meio, e um potinho de molho"></div>
+          <div class="card__corpo">
+            <h3>Salgados</h3>
+            <p>Sabor na medida para a sua festa.</p>
+            <a class="btn btn--secundario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%20salgados." data-wa="salgados">Pedir salgados</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card__img"><img src="img/card_encomendas.webp" width="800" height="600" loading="lazy"
+            alt="Bolo de dois andares nas cores rosa e menta, com nuvens de açúcar e plaquinha em branco, ao lado de balões"></div>
+          <div class="card__corpo">
+            <h3>Encomendas</h3>
+            <p>Tem uma ideia? A gente cria com você.</p>
+            <a class="btn btn--secundario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20para%20uma%20encomenda." data-wa="encomenda">Pedir orçamento</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Ocasiões -->
+  <section class="secao secao--creme" aria-labelledby="ocasioes-titulo">
+    <div class="container centro">
+      <h2 id="ocasioes-titulo" class="reveal">Para cada momento especial</h2>
+      <ul class="chips reveal">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-cake"/></svg>Aniversários</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-calendar-heart"/></svg>Mesversários</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-heart-handshake"/></svg>Casamentos</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>Festas em família</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-party-popper"/></svg>Outras celebrações</li>
+      </ul>
+      <p class="frase reveal">Conte a data. A gente cuida do doce.</p>
+    </div>
+  </section>
+
+  <!-- 6. Como encomendar -->
+  <section class="secao secao--branco" id="como-encomendar" aria-labelledby="como-titulo">
+    <div class="container">
+      <header class="secao__cab reveal">
+        <h2 id="como-titulo">Encomendar é simples</h2>
+      </header>
+      <ol class="passos">
+        <li class="passo reveal"><span class="passo__num" aria-hidden="true">1</span><h3>Chame no WhatsApp</h3><p>Diga o que você precisa.</p></li>
+        <li class="passo reveal"><span class="passo__num" aria-hidden="true">2</span><h3>Receba o orçamento</h3><p>Rápido e sem complicação.</p></li>
+        <li class="passo reveal"><span class="passo__num" aria-hidden="true">3</span><h3>Confirme</h3><p>A gente começa a preparar.</p></li>
+        <li class="passo reveal"><span class="passo__num" aria-hidden="true">4</span><h3>Aproveite</h3><p>Retire na loja ou receba em casa.</p></li>
+      </ol>
+      <p class="acao reveal">
+        <a class="btn btn--primario btn--grande" href="#encomenda">Começar minha encomenda</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 6b. Formulário de encomenda (sem backend: termina em link wa.me) -->
+  <section class="secao secao--creme" id="encomenda" aria-labelledby="encomenda-titulo">
+    <div class="container">
+      <header class="secao__cab reveal">
+        <h2 id="encomenda-titulo">Conte o que você precisa</h2>
+        <p>Preencha os dados e a gente chama você no WhatsApp.</p>
+      </header>
+      <form class="form reveal" id="form-encomenda" novalidate>
+        <div class="isca" aria-hidden="true"><label>Deixe em branco <input type="text" name="site" tabindex="-1" autocomplete="off"></label></div>
+        <div class="campo">
+          <label for="f-nome">Nome</label>
+          <input type="text" id="f-nome" name="nome" autocomplete="name" maxlength="60" required aria-describedby="f-nome-erro" placeholder="Como podemos chamar você?">
+          <p class="campo__erro" id="f-nome-erro" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-circle-alert"/></svg><span></span></p>
+        </div>
+        <div class="campo">
+          <label for="f-whatsapp">WhatsApp</label>
+          <input type="tel" id="f-whatsapp" name="whatsapp" autocomplete="tel" inputmode="tel" required aria-describedby="f-whatsapp-erro" placeholder="(85) 99999-9999">
+          <p class="campo__erro" id="f-whatsapp-erro" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-circle-alert"/></svg><span></span></p>
+        </div>
+        <div class="campo">
+          <label for="f-servico">Serviço</label>
+          <div class="campo__select">
+            <select id="f-servico" name="servico" required aria-describedby="f-servico-erro">
+              <option value="">Selecione...</option>
+              <option>Bolos</option>
+              <option>Doces para festas</option>
+              <option>Salgados</option>
+              <option>Encomendas personalizadas</option>
+            </select>
+            <svg class="ic" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+          </div>
+          <p class="campo__erro" id="f-servico-erro" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-circle-alert"/></svg><span></span></p>
+        </div>
+        <div class="campo">
+          <label for="f-descricao">Descrição</label>
+          <textarea id="f-descricao" name="descricao" rows="4" maxlength="500" required aria-describedby="f-descricao-erro f-descricao-conta" placeholder="Conte a ocasião, a data da festa e o que você imagina."></textarea>
+          <p class="campo__conta" id="f-descricao-conta">0/500</p>
+          <p class="campo__erro" id="f-descricao-erro" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-circle-alert"/></svg><span></span></p>
+        </div>
+        <div class="campo campo--check">
+          <label class="check" for="f-consentimento">
+            <input type="checkbox" id="f-consentimento" name="consentimento" required aria-describedby="f-consentimento-erro">
+            <span>Li e concordo com a <a href="politica-de-privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a></span>
+          </label>
+          <p class="campo__erro" id="f-consentimento-erro" aria-live="polite"><svg class="ic" aria-hidden="true"><use href="#i-circle-alert"/></svg><span></span></p>
+        </div>
+        <button class="btn btn--primario btn--grande form__enviar" type="submit">
+          <svg class="ic" aria-hidden="true"><use href="#i-send"/></svg><span>Enviar encomenda</span>
+        </button>
+        <p class="form__aviso" id="form-aviso" role="alert" hidden>Não conseguimos enviar agora. Tente de novo ou <a href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">chame a gente no WhatsApp</a>.</p>
+        <p class="form__nota">Seu pedido chega direto para a equipe da Doce Lar. A gente chama você no WhatsApp que informar aqui.</p>
+        <p class="form__nota">Quanto antes você avisar, melhor para organizar o seu pedido.</p>
+        <p class="form__nota">Usamos nome, WhatsApp e pedido só para atender você. Saiba mais na Política de Privacidade.</p>
+        <p class="form__nota">Prefere falar direto? <a href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">Chamar no WhatsApp</a></p>
+      </form>
+      <div class="form form--ok" id="form-ok" hidden tabindex="-1" role="status">
+        <svg class="ic" aria-hidden="true"><use href="#i-circle-check"/></svg>
+        <h3>Recebemos seu pedido</h3>
+        <p>A gente chama você no WhatsApp que você informou para continuar a conversa.</p>
+        <button class="btn btn--secundario" type="button" id="form-outra">Fazer outra encomenda</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Delivery -->
+  <section class="secao secao--creme-escuro" aria-labelledby="delivery-titulo">
+    <div class="container duas-colunas">
+      <div class="duas-colunas__texto reveal">
+        <h2 id="delivery-titulo">Chega até você</h2>
+        <p>Entregamos em toda a região de Fortaleza, com cuidado do forno à sua mesa.</p>
+        <a class="btn btn--primario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda%20com%20entrega." data-wa="delivery">
+          <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg>Pedir com entrega
+        </a>
+      </div>
+      <div class="duas-colunas__img reveal"><img class="foto" src="img/delivery.webp" width="1200" height="800" loading="lazy" alt="Caixa de papel branca com quatro cupcakes decorados e flores rosas sobre a tampa"></div>
+    </div>
+  </section>
+
+  <!-- 8. Sobre -->
+  <section class="secao secao--creme" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container duas-colunas duas-colunas--inversa">
+      <div class="duas-colunas__texto reveal">
+        <h2 id="sobre-titulo">Feito com carinho, como em casa</h2>
+        <p>Há 2 anos, a Doce Lar transforma receitas em lembranças. Nossa equipe cuida de cada detalhe para que o seu momento seja inesquecível.</p>
+      </div>
+      <!-- Imagem provisória (gerada por IA): trocar por foto real da equipe -->
+      <div class="duas-colunas__img reveal"><img class="foto" src="img/equipe.webp" width="1200" height="800" loading="lazy"
+        alt="Três confeiteiros de avental sorrindo na cozinha da confeitaria, com um bolo rosa sobre a bancada"></div>
+    </div>
+  </section>
+
+  <!-- 9. Galeria -->
+  <section class="secao secao--branco" aria-labelledby="galeria-titulo">
+    <div class="container">
+      <header class="secao__cab reveal">
+        <h2 id="galeria-titulo">Um gostinho do nosso trabalho</h2>
+      </header>
+      <ul class="galeria">
+        <li><img src="img/galeria-1.webp" width="800" height="800" loading="lazy" alt="Bolo de camadas com chantilly, morangos e frutas vermelhas sobre um prato branco"></li>
+        <li><img src="img/galeria-2.webp" width="800" height="800" loading="lazy" alt="Bolo branco com cobertura rosa escorrendo, confeitos coloridos e cerejas no topo, sobre suporte rosa"></li>
+        <li><img src="img/galeria-3.webp" width="800" height="800" loading="lazy" alt="Bolo de casamento branco de três andares, com flores brancas ao fundo"></li>
+        <li><img src="img/galeria-4.webp" width="800" height="800" loading="lazy" alt="Docinhos com cobertura dourada em forminhas rosa de bolinhas, sobre bandeja rosa"></li>
+        <li><img src="img/galeria-5.webp" width="800" height="800" loading="lazy" alt="Brigadeiros de chocolate empilhados em forminhas pretas"></li>
+        <li><img src="img/galeria-6.webp" width="800" height="800" loading="lazy" alt="Cupcake com cobertura rosa e cereja no topo, com confeitos coloridos ao redor"></li>
+        <li><img src="img/galeria-7.webp" width="800" height="800" loading="lazy" alt="Salgados dourados empilhados em um prato branco"></li>
+        <li><img src="img/galeria-8.webp" width="800" height="800" loading="lazy" alt="Prato escuro com salgados dourados em formato de meia-lua e folhas verdes"></li>
+      </ul>
+      <p class="frase reveal">Quer um assim? Chame a gente.</p>
+      <p class="acao reveal">
+        <a class="btn btn--primario btn--grande" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">
+          <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg>Quero o meu
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 10. Onde estamos -->
+  <section class="secao secao--creme" id="onde-estamos" aria-labelledby="onde-titulo">
+    <div class="container duas-colunas">
+      <div class="duas-colunas__texto reveal">
+        <h2 id="onde-titulo">Venha nos visitar</h2>
+        <ul class="info">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-map-pin"/></svg><span>Av. Jovita Feitosa, 123, Parquelândia, Fortaleza</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><span>Terça a domingo, das 8h às 22h</span></li>
+        </ul>
+        <a class="btn btn--primario" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">
+          <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg>Falar no WhatsApp
+        </a>
+      </div>
+      <div class="duas-colunas__img reveal">
+        <div class="mapa" id="mapa">
+          <div class="mapa__cartao">
+            <svg class="ic" aria-hidden="true"><use href="#i-map-pin"/></svg>
+            <p><strong>Av. Jovita Feitosa, 123</strong><br>Parquelândia, Fortaleza</p>
+            <button class="btn btn--secundario mapa__botao" type="button" id="mapa-botao">Carregar mapa</button>
+            <p class="mapa__aviso">Ao carregar o mapa, o Google recebe o seu acesso. Veja a <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Chamada final -->
+  <section class="chamada" aria-labelledby="chamada-titulo">
+    <div class="container centro">
+      <h2 id="chamada-titulo">Vamos adoçar o seu momento?</h2>
+      <p>Chame a gente e conte o que você está planejando.</p>
+      <a class="btn btn--primario btn--grande btn--sobre-escuro" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">
+        <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg>Chamar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="container rodape__grade">
+    <div class="rodape__marca">
+      <img src="img/logo-claro.svg" alt="Doce Lar" width="161" height="40" loading="lazy">
+      <p>Confeitaria Doce Lar<br>Ajudando você a celebrar doces momentos</p>
+    </div>
+    <ul class="rodape__lista">
+      <li><svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg><a href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral">WhatsApp</a></li>
+      <li><svg class="ic ic--marca" aria-hidden="true"><use href="#i-instagram"/></svg><a href="https://instagram.com/confeitaria_docelar" data-ig target="_blank" rel="noopener">Instagram</a></li>
+      <li><svg class="ic" aria-hidden="true"><use href="#i-shield-check"/></svg><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+    </ul>
+    <address class="rodape__end">
+      Av. Jovita Feitosa, 123, Parquelândia, Fortaleza<br>
+      Terça a domingo, das 8h às 22h
+    </address>
+  </div>
+  <div class="container rodape__direitos">
+    <p>© 2026 Confeitaria Doce Lar. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<a class="flutuante" href="https://wa.me/5585992136722?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20encomenda." data-wa="geral" aria-label="Encomendar pelo WhatsApp">
+  <svg class="ic ic--marca" aria-hidden="true"><use href="#i-whatsapp"/></svg><span class="flutuante__rotulo">Encomendar</span>
+</a>
+
+</body>
+</html>
